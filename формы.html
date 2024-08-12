@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+
+<body>
+    <h1>Формы</h1>
+    <form>
+
+        <div>
+            <Label for="text">Текст</Label>
+            <input type="text" id="text" placeholder="Введите имя">
+        </div>
+        
+
+        <div>
+            <Label for="email">Email</Label>
+            <input type="email" id="email" placeholder="Введите email">
+        </div>
+
+        <div>
+            <Label for="number">Число</Label>
+            <input type="number" id="number" min="0">
+        </div>
+
+        <div>
+            <Label for="password">пароль</Label>
+            <input type="password" id="password" placeholder="подсказка">
+        </div>
+
+        <div>
+            <Label for="range">number</Label>
+            <input type="range" id="range" min="0" max="10" step="1">
+        </div>
+
+        <div>
+            <Label for="date">дата</Label>
+            <input type="date" id="date">
+        </div>
+
+        <div>
+            <Label for="color">цвет</Label>
+            <input type="color" id="color">
+        </div>
+
+        <div>
+            <Label for="message">Сообщение</Label>
+            <br>
+            <textarea id="message" cols="15" rows="10">Доброго времени суток</textarea>
+        </div>
+
+        <div>
+            <Label for="sex">Ваш пол</Label>
+            <select id="sex">
+                <option value="" selected>Мужчина</option>
+                <option value="">Женщина</option>
+                <option value="">Паркетный</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Количество работ:</label>
+            <input type="radio" name="works"> 1
+            <input type="radio" name="works"> 2
+            <input type="radio" name="works"> 3
+            <input type="radio" name="works"> 4+
+        </div>
+
+        <div>
+            <label>продукты в холодильнике:</label> <br>
+            <input type="checkbox" name="foods"> батон <br>
+            <input type="checkbox" name="foods"> жираф <br>
+            <input type="checkbox" name="foods"> лук <br>
+            <input type="checkbox" name="foods"> устрицы <br>
+        </div>
+
+        <!-- <input type="submit" value="отправить форму"> -->
+
+        <button ензу="sudmit">отправить форму</button>
+
+    </form>
+</body>
+
+</html>
